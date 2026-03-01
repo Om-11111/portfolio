@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div
       id="home"
-      className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center px-6 pt-24 md:pt-0 overflow-hidden"
     >
       {/* Floating Blob 1 */}
       <motion.div
@@ -44,7 +44,8 @@ function Hero() {
                 .getElementById("projects")
                 .scrollIntoView({ behavior: "smooth" })
             }
-            className="bg-indigo-600 hover:bg-indigo-700 hover:shadow-[0_0_20px_rgba(99,102,241,0.8)] transition-all duration-300 px-6 py-3 rounded-xl text-white font-semibold"
+            className="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 shadow-md transition-all duration-300 px-6 py-3 rounded-xl text-white font-semibold"
+            
           >
             View Projects
           </button>
@@ -53,7 +54,7 @@ function Hero() {
           <a
             href="/Om_Pawar_Resume.pdf"
             download
-            className="bg-indigo-600 hover:bg-indigo-700 hover:shadow-[0_0_20px_rgba(99,102,241,0.8)] transition-all duration-300 px-6 py-3 rounded-xl text-white font-semibold"
+            className="w-full sm:w-auto bg-transparent border border-white/40 hover:bg-white hover:text-indigo-700 transition-all duration-300 px-6 py-3 rounded-xl text-white font-semibold"
           >
             Download Resume
           </a>
