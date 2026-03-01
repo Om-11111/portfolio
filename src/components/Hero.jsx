@@ -35,14 +35,13 @@ function Hero() {
 
         <p className="text-gray-300 mt-6 text-base sm:text-lg md:text-xl max-w-md mx-auto">
           <Typewriter
-            words={["Aspiring Software Engineer | React & Flutter Developer"]}
-            loop={1}
-            cursor
-            cursorStyle="|"
-            typeSpeed={60}
-            deleteSpeed={0}
-            delaySpeed={1000}
-          />
+  words={["Aspiring Software Engineer | React & Flutter Developer"]}
+  loop={1}
+  cursor={false}
+  typeSpeed={60}
+  deleteSpeed={0}
+  delaySpeed={1000}
+/>
         </p>
 
         {/* Buttons */}
