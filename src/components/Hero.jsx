@@ -36,10 +36,13 @@ function Hero() {
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
           <button className="bg-indigo-600 hover:bg-indigo-700 hover:shadow-[0_0_20px_rgba(99,102,241,0.8)] transition-all duration-300 px-6 py-3 rounded-xl text-white font-semibold">
              View Projects
-          </button>
-
-          <button className="border border-white/30 hover:bg-white/10 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] transition-all duration-300 px-6 py-3 rounded-xl text-white font-semibold">
-            Contact Me
+          <a
+            href="/Om_Pawar_Resume.pdf"
+              download
+            className="border border-white/30 hover:bg-white/10 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] transition-all duration-300 px-6 py-3 rounded-xl text-white font-semibold"
+>
+          Download Resume
+          </a>
           </button>
         </div>
       </motion.div>
