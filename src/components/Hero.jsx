@@ -25,13 +25,13 @@ function Hero() {
         initial={{ opacity: 0, y: 60 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl shadow-2xl p-12 text-center max-w-2xl w-full z-10"
+        className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl shadow-2xl p-8 md:p-12 text-center max-w-lg md:max-w-2xl w-full z-10"
       >
-        <h1 className="text-5xl md:text-6xl font-bold text-white">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white">
           Om Pawar
         </h1>
 
-        <p className="text-gray-300 mt-6 text-lg md:text-xl">
+        <p className="text-gray-300 mt-6 text-base sm:text-lg md:text-xl max-w-md mx-auto">
           Aspiring Software Engineer | React & Flutter Developer
         </p>
 
