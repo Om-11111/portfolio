@@ -53,7 +53,7 @@ function Hero() {
           <a
             href="/Om_Pawar_Resume.pdf"
             download
-            className="bg-white/10 border border-white/30 hover:bg-indigo-600 hover:border-indigo-600 hover:shadow-[0_0_20px_rgba(99,102,241,0.8)] transition-all duration-300 px-6 py-3 rounded-xl text-white font-semibold"
+            className="bg-transparent border border-white/40 hover:bg-white hover:text-indigo-700 transition-all duration-300 px-6 py-3 rounded-xl text-white font-semibold"
           >
             Download Resume
           </a>
