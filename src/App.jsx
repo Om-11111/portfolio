@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-gradient-to-br from-[#0a0f1f] via-[#111827] to-[#1f2937] min-h-screen text-white">
+    <div className="bg-gradient-to-br from-[#0f172a] via-[#1e1b4b] to-[#312e81] min-h-screen text-white">
       <Navbar />
       <Hero />
       <About />
